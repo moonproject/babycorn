@@ -1,0 +1,96 @@
+/* Layout */
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+main {
+  padding: 1rem;
+}
+
+/* Nav */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+nav a.active {
+  color: white;
+  background-color: #008CBA;
+}
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tbody tr:hover {background-color: #F2F9FF;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  font-weight: 700;
+}
+
+/* Dashboard Widget */
+
+.widget {
+  width: 20%;
+  float: left;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+/* Form */
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input[type=text], input[type=password], input[type=email], select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
